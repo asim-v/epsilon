@@ -17,10 +17,11 @@ a {
 a:hover {
   color: lightblue;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 body {
   bottom: 0;
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Poppins', sans-serif;
+
   color: white;
   left: 0;
   margin: 0;
@@ -32,10 +33,11 @@ body {
 }
 
 .container {
+
   position: absolute;
-  background-color: #596e73;
-  height: 720px;
-  width: 1280px;
+  background-color: #0d0d0d;
+  height:100%;
+  width: 100%;
 }
 
 .input_video {
@@ -100,8 +102,8 @@ body {
   width: 120px;
   height: 120px;
   animation: spin 1s linear infinite;
-  border: 32px solid #bebebe;
-  border-top: 32px solid #3498db;
+  border: 32px solid #bebebe33;
+  border-top: 32px solid #81c781;
   border-radius: 50%;
 }
 
